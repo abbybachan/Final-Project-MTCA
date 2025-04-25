@@ -1,6 +1,11 @@
 /*stylesheet for the final project*/
 
 /*General Body for all Pages*/
+p {
+	font-size:1.2rem;
+	}
+
+
 body {
 	font-family:arial;
 	padding:0;
