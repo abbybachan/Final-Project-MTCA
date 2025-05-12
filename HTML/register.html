@@ -37,32 +37,41 @@
 		
 			<div id="registration_form">
 			
-			<fieldset> 
+			<h2> Register for Updates on T&amp;T </h2>
 			
-			<legend> Register for Updates on T&amp;T  </legend>
+			<fieldset class="personal">
 			
-				<form method="get" action="acknowledgement.html" >
+			<legend> Personal Information </legend>
+			
+			<form method="get" action="acknowledgement.html" >
 			
 				<label class="formLabel"> First Name </label>
 					<input type="text" id="f_name" name="f_name"> <br><br>
 				
 				
 				<label class="formLabel"> Last Name </label>
-					<input type="text" id="l_name" name="l_name"> <br><br>
-				
-				
-				<label class="formLabel"> Gender&colon; </label>
-					Male <input type="radio" id="m_gender" name="gender" value="Male"> &nbsp; &nbsp; &nbsp; &nbsp;
-					Female <input type="radio" id="f_gender" name="gender" value="Female"> <br><br>
-				
-				
-				<label class="formLabel"> Address&colon; </label>
-					<textarea id="address" name="address" rows="3" cols="20" ></textarea> <br><br>
+					<input type="text" id="l_name" name="l_name"> 
+	
+			</fieldset>
 
-
+			<fieldset class="basic-info">
+			
+			<legend> Basic Information </legend>
+				<label class="formLabel"> Have you visited T&amp;T before? </label>
+					Yes <input type="radio" id="y_visit" name="visit" value="Yes"> &nbsp; &nbsp; &nbsp; &nbsp;
+					No <input type="radio" id="n_visit" name="visit" value="No"> <br><br>
+				
+				
+				<label class="formLabel"> What type of experiences are you interested in?</label>
+					<textarea id="address" name="address" rows="3" cols="30" ></textarea> <br><br>
+					
+					
 				<label class="formLabel"> Email&colon; </label>
 					<input type="email" id="email" name="email" size="30"> <br><br>
-				
+					
+					
+				<label class="formLabel"> User Name </label>
+					<input type="text" id="u_name" name="u_name"> <br><br>
 				
 				<label class="formLabel"> Password&colon; </label>
 					<input type="password" id="p_wd" name="p_wd" maxlength="10"> <br><br>
@@ -93,11 +102,11 @@
 				
 				<legend> Login to MTCA Portal</legend>
 							
-					<label class="formLabel"> Email&colon; </label>
+					<label class="formlabel"> Email&colon; </label>
 						<input type="email" id="emailAdd" name="emailAdd" size="30"> <br><br>
 						
 						
-					<label class="formLabel"> Password&colon; </label>
+					<label> Password&colon; </label>
 						<input type="password" id="p_word" name="p_word"> <br><br>
 						
 				<div class="buttons">	
@@ -113,7 +122,6 @@
 		</div>
 	
 	</main>
-	
 	
 	</div>
 	
