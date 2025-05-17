@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="Karishma A. Bachan">
+	<meta name="author" content="Karishma A. Bachan"> 
 	<title> Register for Updates </title>
 	<link rel="stylesheet" href="../CSS/style.css">
 </head>
@@ -35,27 +35,26 @@
 	<main>
 		<div class="main-flex">
 		
-			<div id="registration_form">
-			
-			<h2> Register for Updates on T&amp;T </h2>
-			
+		<div id="registration_form">
+		
+		<h2> Register for Updates on T&amp;T </h2>
+		
+		<form method="post" action="acknowledgement.html">
+		
 			<fieldset class="personal">
 			
-			<legend> Personal Information </legend>
-			
-			<form method="get" action="acknowledgement.html" >
-			
-				<label class="formLabel"> First Name </label>
-					<input type="text" id="f_name" name="f_name"> <br><br>
-				
-				
-				<label class="formLabel"> Last Name </label>
-					<input type="text" id="l_name" name="l_name"> 
-	
+				<legend> Personal Information </legend>
+							
+					<label class="formLabel"> First Name </label>
+						<input type="text" id="f_name" name="f_name"> <br><br>
+					
+					
+					<label class="formLabel"> Last Name </label>
+						<input type="text" id="l_name" name="l_name"> 
 			</fieldset>
+		
 
 			<fieldset class="basic-info">
-			
 			
 				<label class="formLabel"> Have you visited T&amp;T before? </label>
 					Yes <input type="radio" id="y_visit" name="visit" value="Yes"> &nbsp; &nbsp; &nbsp; &nbsp;
@@ -80,25 +79,26 @@
 				<label class="formLabel"> Confirm Password&colon; </label>
 					<input type="password" id="c_wd" name="c_wd" maxlength="10"> <br><br>
 				
-			<div class="buttons">			
-				<input type="reset" value="CLEAR"> &nbsp; &nbsp;
-				
-				<input type="submit" value="SUBMIT"> &nbsp; &nbsp;
-			</div>
+					<div class="buttons">			
+						<input type="reset" value="CLEAR"> &nbsp; &nbsp;
+						
+						<input type="submit" value="SUBMIT"> &nbsp; &nbsp;
+					</div>
 			
-			</form>
+			</fieldset>
 			
-			</fieldset>	
 			
-			</div>
+		</form>	
+			
+		</div>
 
 
 			<br>
 
 			
-			<div id="login_info">
+		<div id="login_info">
 
-				<fieldset>
+			<fieldset>
 				
 				<legend> Login to MTCA Portal</legend>
 							
@@ -115,7 +115,7 @@
 					<input type="submit" value="LOGIN"> &nbsp; &nbsp;	
 				</div>
 				
-				</fieldset> 
+			</fieldset> 
 			
 			</div>
 		
@@ -127,6 +127,10 @@
 	
 	
 	<footer>
+		<div class="CTA">
+			<a href="mailto:info@mtca.gov.tt" class="call-button"> Email Us</a>
+		</div>
+		
 		&copy;Ministry of Tourism, Culture &amp; the Arts 
 	</footer>
 	
