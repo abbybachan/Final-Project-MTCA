@@ -196,17 +196,47 @@ label {
 .CTA {
 	text-align:center;
 	margin:30px 0;
+	gap:20px;
+	display:flex;
+	justify-content:center;
 	}
 	
 .call-button {
 	color:white;
 	background-color:#1AB4D6;
 	text-decoration:none;
-	padding:15px 30px;
+	display:inline-block;
+	text-align:center;
+	padding:12px;
+	margin:5px;
+	width:200px;
 	font-size:1.2rem;
 	border-radius:30px;
 	border:none;
 	box-shadow:4px 6px 8px;
+	}
+
+.call-button:hover {
+	background-color:#128ba8;
+	box-shadow:2px 3px 4px;
+	}
+	
+.call-button:active {
+	background-color:#0f6c85;
+	box-shadow:2px 3px 4px;
+	}
+	
+footer {
+	text-align:center;
+	font-weight:bold;
+	font-style:italic;
+	padding:25px 15px;
+	background-color:#004466;
+	color:#fff;
+	}
+	
+footer .CTA {
+	margin-bottom:20px;
 	}
 
 /*highlights.html*/
