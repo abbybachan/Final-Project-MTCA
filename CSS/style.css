@@ -32,6 +32,7 @@ footer {
 	margin-top:40px;
 	}
 
+
 /*Nav Bar on all pages except the Toursim Highlights*/
 
 aside {
@@ -320,7 +321,7 @@ article {
 /*testimonials.html*/
 #testimonial_grid {
 	display:grid;
-	grid-template-columns:repeat(3, 1fr); /*gives 3 evenly spaced columns*/
+	grid-template-columns:repeat(3, 1fr);
 	gap:20px;
 	margin-top:30px;
 	}
